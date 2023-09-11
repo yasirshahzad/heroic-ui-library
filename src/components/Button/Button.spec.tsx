@@ -5,7 +5,7 @@ import Button from './Button';
 
 describe('Button component', () => {
   it('should render', () => {
-    const { getByText } = render(<Button>Click me</Button>);
+    const { getByText } = render(<Button btnType="blue" label="Click me" />);
     expect(getByText('Click me')).toBeTruthy();
   });
 });

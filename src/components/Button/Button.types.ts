@@ -1,8 +1,28 @@
-import { ButtonHTMLAttributes, PropsWithChildren } from 'react';
+import { HTMLAttributes } from 'react';
 
-type ButtonVariant = 'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info';
+export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
+  /**
+   * Which type of button should be?
+   */
+  btnType: 'red' | 'blue' | 'green' | 'orange' | 'gray';
 
-export interface ButtonProps extends PropsWithChildren<ButtonHTMLAttributes<HTMLButtonElement>> {
-  outlined?: boolean;
-  variant?: ButtonVariant;
+  /**
+   * Button contents
+   */
+  label: string;
+
+  /**
+   * Optional click handler
+   */
+  onClick?: () => void;
+
+  /**
+   *Optinal disable button
+   */
+  disable?: boolean;
+
+  /**
+   *Optinal Active/selected button
+   */
+  selected?: boolean;
 }

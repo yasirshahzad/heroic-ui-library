@@ -1,29 +1,15 @@
 import React from 'react';
-import classNames from 'classnames';
 import { ButtonProps } from './Button.types';
 import './Button.css';
 
-const preventDefault = (e: Event | React.SyntheticEvent) => e.preventDefault();
-
-export default function Button(props: ButtonProps) {
-  const { children, type, variant = 'primary', className, outlined, ...otherProps } = props;
-
+export default function Button({ btnType, label, disable, selected, ...props }: ButtonProps) {
   return (
     <button
-      type={type || 'button'}
-      onMouseEnter={otherProps.disabled ? preventDefault : otherProps.onMouseEnter}
-      aria-disabled={otherProps.disabled ? 'true' : undefined}
-      className={classNames(
-        'btn',
-        {
-          [`btn-outline-${variant}`]: outlined,
-          [`btn-${variant}`]: !outlined,
-        },
-        className,
-      )}
-      {...otherProps}
+      disabled={disable}
+      className={['btn', `btn--${btnType}`, `${selected ? `selected--${btnType}` : ''}`].join(' ')}
+      {...props}
     >
-      {children}
+      <div className="btn_text">{label}</div>
     </button>
   );
 }
