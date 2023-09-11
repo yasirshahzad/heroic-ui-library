@@ -1,5 +1,4 @@
 # Build outputs
-storybook-static
 *.tgz
 *bundle-analysis.html
 
