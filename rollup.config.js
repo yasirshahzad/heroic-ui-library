@@ -37,7 +37,7 @@ export default {
   },
   plugins: [
     peerDeps(),
-    externalAssets(['src/assets/*']),
+    externalAssets(['src/assets/*', 'src/components/**/assets/*']),
     styles(),
     resolve(),
     commonjs(),
