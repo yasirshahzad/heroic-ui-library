@@ -1,82 +1,83 @@
-import { HTMLAttributes } from 'react';
+import { ButtonHTMLAttributes } from 'react';
 
-type BtnType =
-  | 'search-list'
-  | 'close'
-  | 'check-green'
-  | 'arrow-up-orange'
-  | 'arrow-tail-right-green'
-  | 'arrow-right-orange'
-  | 'arrow-left-orange'
-  | 'arrow-down-orange'
-  | 'slider-handle'
-  | 'phone-trade'
-  | 'phone-requests-sent-selected'
-  | 'phone-requests-sent-default'
-  | 'phone-requests-received-selected'
-  | 'phone-requests-received-default'
-  | 'phone-report'
-  | 'phone-message-send'
-  | 'phone-group-pending'
-  | 'phone-group-leave'
-  | 'phone-group-add'
-  | 'phone-friend-remove'
-  | 'phone-friend-pending'
-  | 'phone-myschool-default'
-  | 'phone-chat-new'
-  | 'phone-chats-direct-selected'
-  | 'phone-chats-direct-default'
-  | 'phone-chat-group-selected'
-  | 'phone-chat-group-default'
-  | 'phone-blocked-selected'
-  | 'phone-blocked-default'
-  | 'phone-block'
-  | 'phone-myschool-selected'
-  | 'checkbox-xd'
-  | 'checkbox-checked'
-  | 'checkbox-empty'
-  | 'farming-dig'
-  | 'phone-friend-add'
-  | 'history'
-  | 'phone-myfriends-default'
-  | 'phone-myfriends-selected'
-  | 'feedback'
-  | 'home'
-  | 'leave'
-  | 'list'
-  | 'magnifying-glass'
-  | 'menu-closed'
-  | 'menu-open'
-  | 'minimap-global'
-  | 'minimap-local'
-  | 'minimap'
-  | 'minus-orange'
-  | 'minus-red'
-  | 'personal-room-edit-default'
-  | 'personal-room-edit-selected'
-  | 'personal-room-edit'
-  | 'personal-room-play-default'
-  | 'personal-room-play-selected'
-  | 'personal-room-play'
-  | 'personal-room-invite'
-  | 'plus-green'
-  | 'plus-orange'
-  | 'question'
-  | 'random'
-  | 'redo'
-  | 'screen-full'
-  | 'screen-small'
-  | 'teleport-disabled'
-  | 'teleport'
-  | 'tts'
-  | 'undo'
-  | 'video-pause'
-  | 'video-play'
-  | 'video-stop'
-  | 'zoom-in'
-  | 'zoom-out';
+export enum BtnType {
+  'search-list' = 'search-list',
+  'check-green' = 'check-green',
+  'arrow-up-orange' = 'arrow-up-orange',
+  'arrow-tail-right-green' = 'arrow-tail-right-green',
+  'arrow-right-orange' = 'arrow-right-orange',
+  'arrow-left-orange' = 'arrow-left-orange',
+  'arrow-down-orange' = 'arrow-down-orange',
+  'slider-handle' = 'slider-handle',
+  'phone-trade' = 'phone-trade',
+  'phone-requests-sent-selected' = 'phone-requests-sent-selected',
+  'phone-requests-sent-default' = 'phone-requests-sent-default',
+  'phone-requests-received-selected' = 'phone-requests-received-selected',
+  'phone-requests-received-default' = 'phone-requests-received-default',
+  'phone-report' = 'phone-report',
+  'phone-message-send' = 'phone-message-send',
+  'phone-group-pending' = 'phone-group-pending',
+  'phone-group-leave' = 'phone-group-leave',
+  'phone-group-add' = 'phone-group-add',
+  'phone-friend-remove' = 'phone-friend-remove',
+  'phone-friend-pending' = 'phone-friend-pending',
+  'phone-myschool-default' = 'phone-myschool-default',
+  'phone-chat-new' = 'phone-chat-new',
+  'phone-chats-direct-selected' = 'phone-chats-direct-selected',
+  'phone-chats-direct-default' = 'phone-chats-direct-default',
+  'phone-chat-group-selected' = 'phone-chat-group-selected',
+  'phone-chat-group-default' = 'phone-chat-group-default',
+  'phone-blocked-selected' = 'phone-blocked-selected',
+  'phone-blocked-default' = 'phone-blocked-default',
+  'phone-block' = 'phone-block',
+  'phone-myschool-selected' = 'phone-myschool-selected',
+  'checkbox-xd' = 'checkbox-xd',
+  'checkbox-checked' = 'checkbox-checked',
+  'checkbox-empty' = 'checkbox-empty',
+  'farming-dig' = 'farming-dig',
+  'phone-friend-add' = 'phone-friend-add',
+  'history' = 'history',
+  'phone-myfriends-default' = 'phone-myfriends-default',
+  'phone-myfriends-selected' = 'phone-myfriends-selected',
+  'feedback' = 'feedback',
+  'home' = 'home',
+  'leave' = 'leave',
+  'list' = 'list',
+  'magnifying-glass' = 'magnifying-glass',
+  'menu-closed' = 'menu-closed',
+  'menu-open' = 'menu-open',
+  'minimap-global' = 'minimap-global',
+  'minimap-local' = 'minimap-local',
+  'minimap' = 'minimap',
+  'minus-orange' = 'minus-orange',
+  'minus-red' = 'minus-red',
+  'personal-room-edit-default' = 'personal-room-edit-default',
+  'personal-room-edit-selected' = 'personal-room-edit-selected',
+  'personal-room-edit' = 'personal-room-edit',
+  'personal-room-play-default' = 'personal-room-play-default',
+  'personal-room-play-selected' = 'personal-room-play-selected',
+  'personal-room-play' = 'personal-room-play',
+  'personal-room-invite' = 'personal-room-invite',
+  'plus-green' = 'plus-green',
+  'plus-orange' = 'plus-orange',
+  'question' = 'question',
+  'random' = 'random',
+  'redo' = 'redo',
+  'screen-full' = 'screen-full',
+  'screen-small' = 'screen-small',
+  'teleport-disabled' = 'teleport-disabled',
+  'teleport' = 'teleport',
+  'tts' = 'tts',
+  'undo' = 'undo',
+  'video-pause' = 'video-pause',
+  'video-play' = 'video-play',
+  'video-stop' = 'video-stop',
+  'zoom-in' = 'zoom-in',
+  'zoom-out' = 'zoom-out',
+  close = 'close',
+}
 
-export interface RoundButtonProps extends HTMLAttributes<HTMLButtonElement> {
+export interface RoundButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   /**
    * Which Size of button should be?
    */
@@ -88,14 +89,14 @@ export interface RoundButtonProps extends HTMLAttributes<HTMLButtonElement> {
   btnType: BtnType;
 
   /**
-   *Optinal disable button
-   */
-  disable?: boolean;
-
-  /**
    *Optinal Active/selected button
    */
   selected?: boolean;
+
+  /**
+   *Optinal disable button
+   */
+  disabled?: boolean;
 
   /**
    * Optional click handler

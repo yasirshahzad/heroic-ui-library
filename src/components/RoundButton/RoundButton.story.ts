@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { RoundButton } from './RoundButton';
+import { BtnType } from './RoundButton.types';
 
 const meta = {
   title: 'Buttons/Round',
@@ -9,7 +10,7 @@ const meta = {
   },
   tags: ['autodocs'],
 
-  argTypes: {},
+  argTypes: { btnType: {} },
 } as Meta<typeof RoundButton>;
 
 export default meta;
@@ -18,28 +19,28 @@ type Story = StoryObj<typeof meta>;
 
 export const ArrowUp: Story = {
   args: {
-    btnType: 'arrow-up-orange',
+    btnType: BtnType['arrow-up-orange'],
     size: 'medium',
   },
 };
 
 export const ArrowRight: Story = {
   args: {
-    btnType: 'arrow-right-orange',
+    btnType: BtnType['arrow-right-orange'],
     size: 'medium',
   },
 };
 
 export const ArrowDown: Story = {
   args: {
-    btnType: 'arrow-down-orange',
+    btnType: BtnType['arrow-down-orange'],
     size: 'medium',
   },
 };
 
 export const ArrowLeft: Story = {
   args: {
-    btnType: 'arrow-left-orange',
+    btnType: BtnType['arrow-left-orange'],
     size: 'medium',
   },
 };
