@@ -1,0 +1,85 @@
+.btn__round {
+  border-radius: 50%;
+  font-size: 2.5rem;
+  transition: 0.1s;
+  font-weight: 700;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  position: inherit;
+}
+
+.btn__round:hover {
+  transform: scale(120%);
+}
+
+.btn__round:active {
+  transform: scale(80%);
+}
+
+.btn__round__large {
+  width: 9rem;
+  height: 9rem;
+}
+
+.btn__round__medium {
+  width: 8rem;
+  height: 8rem;
+}
+
+.btn__round__small {
+  width: 7rem;
+  height: 7rem;
+}
+
+.btn__round__icon {
+  width: inherit;
+  height: inherit;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+}
+
+/* Arrow Button Section */
+.btn__round__small .btn__round--Btn_arrow-up-orange {
+  background-image: url('../../assets/round-btns/Btn_arrow-up-orange.svg');
+}
+.btn__round__medium .btn__round--Btn_arrow-up-orange {
+  background-image: url(../../assets/round-btns/Btn_arrow-up-orange.svg);
+}
+
+.btn__round__large .btn__round--Btn_arrow-up-orange {
+  background-image: url(../../assets/round-btns/Btn_arrow-up-orange.svg);
+}
+.btn__round__small .btn__round--Btn_arrow-right-orange {
+  background-image: url(../../assets/round-btns/Btn_arrow-right-orange.svg);
+}
+.btn__round__medium .btn__round--Btn_arrow-right-orange {
+  background-image: url(../../assets/round-btns/Btn_arrow-right-orange.svg);
+}
+
+.btn__round__large .btn__round--Btn_arrow-right-orange {
+  background-image: url(../../assets/round-btns/Btn_arrow-right-orange.svg);
+}
+
+.btn__round__small .btn__round--Btn_arrow-down-orange {
+  background-image: url(../../assets/round-btns/Btn_arrow-down-orange.svg);
+}
+.btn__round__medium .btn__round--Btn_arrow-down-orange {
+  background-image: url(../../assets/round-btns/Btn_arrow-down-orange.svg);
+}
+
+.btn__round__large .btn__round--Btn_arrow-down-orange {
+  background-image: url(../../assets/round-btns/Btn_arrow-down-orange.svg);
+}
+
+.btn__round__small .btn__round--Btn_arrow-left-orange {
+  background-image: url(../../assets/round-btns/Btn_arrow-left-orange.svg);
+}
+.btn__round__medium .btn__round--Btn_arrow-left-orange {
+  background-image: url(../../assets/round-btns/Btn_arrow-left-orange.svg);
+}
+
+.btn__round__large .btn__round--Btn_arrow-left-orange {
+  background-image: url(../../assets/round-btns/Btn_arrow-left-orange.svg);
+}
