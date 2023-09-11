@@ -1,0 +1,34 @@
+/* Input filed */
+.input {
+  font-family: 'Acme';
+  border: 3px solid #000205;
+  font-size: 2.4rem;
+  border-radius: 0;
+  box-shadow: 5px 5px black;
+  outline: 0;
+  padding: 0.4rem 0.4rem 0.4rem 0.8rem;
+  transition: 0.2s;
+}
+.input::placeholder {
+  color: #838383;
+  font-family: 'Acme';
+}
+/* Input Filed Label */
+.input__label {
+  font-family: 'Acme';
+  font-size: 1.8rem;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+.input:focus {
+  border: 3px solid #002356;
+  box-shadow: 5px 5px #002356;
+}
+
+/* Error */
+.error {
+  margin-top: 1rem;
+  font-family: 'Acme';
+  color: red;
+  font-size: 1.4rem;
+}
