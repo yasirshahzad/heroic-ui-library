@@ -1,12 +1,10 @@
-<img src="react-library-builder.png" width="400px" />
+# Heroic UI Library
 
-# Creating a Custom React Library
-
-Creating a custom React library can be a great way to share reusable components and functionality across multiple projects. This guide will walk you through the process of setting up and developing a library using the React Library Builder.
+Heroic UI Library can be a great way to share reusable components and functionality across multiple projects. This guide will walk you through the process of setting up and developing a library using the Heroic UI Library.
 
 ## Step 1: Set up the Project
 
-First, create a new directory for library and navigate to it in the terminal. Then, clone the React Library Builder repository using the following command:
+First, create a new directory for library and navigate to it in the terminal. Then, clone the Heroic UI Library repository using the following command:
 
 ```bash {1}
 git clone https://github.com/yasirshahzad/heroic-ui-library.git
@@ -32,11 +30,11 @@ It's also important to include a `Component.story.tsx` file for each component y
 
 ## Step 3: Style Components
 
-The React Library Builder supports both SCSS and CSS out of the box, so you can style components as you normally would. If you want to use CSS modules, you can refer to the [rollup-plugin-postcss](https://github.com/egoist/rollup-plugin-postcss) documentation for more information.
+The Heroic UI Library supports both SCSS and CSS out of the box, so you can style components as you normally would. If you want to use CSS modules, you can refer to the [rollup-plugin-postcss](https://github.com/egoist/rollup-plugin-postcss) documentation for more information.
 
 ## Step 4: Test Components
 
-Testing is crucial when developing a library, as it helps ensure that components work as expected. The React Library Builder uses [Vitest](https://vitest.dev/) and [@testing-library/react](https://testing-library.com/docs/react-testing-library/intro/) for testing. You can find an example test file in the `Button.spec.tsx` file.
+Testing is crucial when developing a library, as it helps ensure that components work as expected. The Heroic UI Library uses [Vitest](https://vitest.dev/) and [@testing-library/react](https://testing-library.com/docs/react-testing-library/intro/) for testing. You can find an example test file in the `Button.spec.tsx` file.
 
 To run the tests, use the following command:
 
@@ -52,7 +50,7 @@ yarn test:coverage
 
 ## Step 5: Linting
 
-Linting is an important step in maintaining code quality, The React Library Builder uses [ESLint](https://eslint.org/) and [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) for linting. You can modify linting rules by overriding them in the `.eslintrc` file.
+Linting is an important step in maintaining code quality, The Heroic UI Library uses [ESLint](https://eslint.org/) and [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) for linting. You can modify linting rules by overriding them in the `.eslintrc` file.
 
 To run the linter, use the following command:
 

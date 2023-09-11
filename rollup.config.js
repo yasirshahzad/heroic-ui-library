@@ -2,10 +2,12 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
 import peerDeps from 'rollup-plugin-peer-deps-external';
-import postcss from 'rollup-plugin-postcss';
+import styles from 'rollup-plugin-styles';
+import { externalAssets } from 'rollup-plugin-external-assets';
 
 import { typescriptPaths } from 'rollup-plugin-typescript-paths';
 import { getFiles } from './scripts/buildUtils';
+import externalGlobals from 'rollup-plugin-external-globals';
 
 const extensions = ['.js', '.ts', '.jsx', '.tsx'];
 const excludeExtensions = [
@@ -46,8 +48,8 @@ export default {
   },
   plugins: [
     peerDeps(),
-    postcss(postcssConfig),
-    externalAssets('src/assets/*'),
+    externalAssets(['src/assets/*']),
+    styles(),
     resolve(),
     commonjs(),
     typescript({
@@ -56,5 +58,10 @@ export default {
       declarationDir: 'dist',
     }),
     typescriptPaths(),
+    externalGlobals({
+      React: 'react',
+      'react-dom': 'react-dom',
+    }),
   ],
+  external: ['react', 'react-dom', 'classnames'],
 };

@@ -33,6 +33,7 @@
     "jest"
   ],
   "types": [
-    "typePatches"
+    "typePatches",
+    "src/typings"
   ]
 }
