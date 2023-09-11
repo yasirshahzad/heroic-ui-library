@@ -1,10 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  core: {
-    builder: 'webpack5',
-  },
   stories: ['../**/*.story.ts', '../**/*.story.tsx', '../**/*.story.tsx'],
+
   addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-storysource'],
   webpackFinal: async (config, { configType }) => {
     config.resolve = {
@@ -41,5 +39,14 @@ module.exports = {
 
     // Return the altered config
     return config;
+  },
+
+  docs: {
+    autodocs: true,
+  },
+
+  framework: {
+    name: '@storybook/react-webpack5',
+    options: {},
   },
 };

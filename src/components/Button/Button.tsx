@@ -2,8 +2,6 @@ import React from 'react';
 import classNames from 'classnames';
 import { ButtonProps } from './Button.types';
 import './Button.css';
-import img from '../../assets/HL_UI-Btn-RectGray.png';
-import img2 from '../../assets/Btn_leave.webp';
 
 const preventDefault = (e: Event | React.SyntheticEvent) => e.preventDefault();
 
@@ -26,8 +24,6 @@ export default function Button(props: ButtonProps) {
       {...otherProps}
     >
       {children}
-      <img src={img2} />
-      <img src={img} />
     </button>
   );
 }

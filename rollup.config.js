@@ -25,17 +25,6 @@ const excludeExtensions = [
   'story.tsx',
 ];
 
-/** @type {import('postcss').PostCSSPluginConf} */
-const postcssConfig = {
-  minimize: true,
-  sourceMap: true,
-  extract: true,
-  config: {
-    path: './postcss.config.js',
-    ctx: null,
-  },
-};
-
 /** @type {import('rollup').RollupOptions} */
 export default {
   input: ['./src/index.ts', ...getFiles('./src/components', extensions, excludeExtensions)],
