@@ -10,9 +10,7 @@ export enum BtnType {
   'arrow-down-orange' = 'arrow-down-orange',
   'slider-handle' = 'slider-handle',
   'phone-trade' = 'phone-trade',
-  'phone-requests-sent-selected' = 'phone-requests-sent-selected',
   'phone-requests-sent-default' = 'phone-requests-sent-default',
-  'phone-requests-received-selected' = 'phone-requests-received-selected',
   'phone-requests-received-default' = 'phone-requests-received-default',
   'phone-report' = 'phone-report',
   'phone-message-send' = 'phone-message-send',
@@ -23,14 +21,10 @@ export enum BtnType {
   'phone-friend-pending' = 'phone-friend-pending',
   'phone-myschool-default' = 'phone-myschool-default',
   'phone-chat-new' = 'phone-chat-new',
-  'phone-chats-direct-selected' = 'phone-chats-direct-selected',
   'phone-chats-direct-default' = 'phone-chats-direct-default',
-  'phone-chat-group-selected' = 'phone-chat-group-selected',
   'phone-chat-group-default' = 'phone-chat-group-default',
-  'phone-blocked-selected' = 'phone-blocked-selected',
   'phone-blocked-default' = 'phone-blocked-default',
   'phone-block' = 'phone-block',
-  'phone-myschool-selected' = 'phone-myschool-selected',
   'checkbox-xd' = 'checkbox-xd',
   'checkbox-checked' = 'checkbox-checked',
   'checkbox-empty' = 'checkbox-empty',
@@ -38,7 +32,6 @@ export enum BtnType {
   'phone-friend-add' = 'phone-friend-add',
   'history' = 'history',
   'phone-myfriends-default' = 'phone-myfriends-default',
-  'phone-myfriends-selected' = 'phone-myfriends-selected',
   'feedback' = 'feedback',
   'home' = 'home',
   'leave' = 'leave',
@@ -52,10 +45,8 @@ export enum BtnType {
   'minus-orange' = 'minus-orange',
   'minus-red' = 'minus-red',
   'personal-room-edit-default' = 'personal-room-edit-default',
-  'personal-room-edit-selected' = 'personal-room-edit-selected',
   'personal-room-edit' = 'personal-room-edit',
   'personal-room-play-default' = 'personal-room-play-default',
-  'personal-room-play-selected' = 'personal-room-play-selected',
   'personal-room-play' = 'personal-room-play',
   'personal-room-invite' = 'personal-room-invite',
   'plus-green' = 'plus-green',
@@ -65,7 +56,6 @@ export enum BtnType {
   'redo' = 'redo',
   'screen-full' = 'screen-full',
   'screen-small' = 'screen-small',
-  'teleport-disabled' = 'teleport-disabled',
   'teleport' = 'teleport',
   'tts' = 'tts',
   'undo' = 'undo',
@@ -74,12 +64,12 @@ export enum BtnType {
   'video-stop' = 'video-stop',
   'zoom-in' = 'zoom-in',
   'zoom-out' = 'zoom-out',
-  close = 'close',
+  'close' = 'close',
 }
 
 export interface RoundButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   /**
-   * Which Size of button should be?
+   * Which size of button should be?
    */
   size: 'small' | 'medium' | 'large';
 
@@ -89,7 +79,7 @@ export interface RoundButtonProps extends ButtonHTMLAttributes<HTMLButtonElement
   btnType: BtnType;
 
   /**
-   *Optinal Active/selected button
+   *Optinal active/selected button
    */
   selected?: boolean;
 

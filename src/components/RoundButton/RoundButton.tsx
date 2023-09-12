@@ -8,8 +8,11 @@ export const RoundButton = ({ size, btnType, selected, disabled = false, ...prop
       <div
         className={[
           'btn__round__icon',
-          `${selected ? `btn__round--selected--${btnType}` : `btn__round--${btnType}`}`,
-          `${disabled ? `btn__round--disabled--${btnType}` : ''}`,
+          `${
+            selected
+              ? `btn__round--selected--${btnType}`
+              : `${disabled ? `btn__round--disabled--${btnType}` : `btn__round--${btnType}`}`
+          }`,
         ].join(' ')}
       />
     </button>
