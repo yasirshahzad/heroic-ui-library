@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import CheckBox from './checkbox';
+import CheckBox from './Checkbox';
 
 const meta = {
   title: 'CheckBox/Animated CheckBox',
@@ -8,7 +8,7 @@ const meta = {
     layout: 'centered',
   },
   tags: ['autodocs'],
-  argTypes: {},
+  argTypes: { size: { control: 'radio', options: ['small', 'medium', 'large'] } },
 } as Meta<typeof CheckBox>;
 
 export default meta;
@@ -18,9 +18,8 @@ type Story = StoryObj<typeof CheckBox>;
 // CheckBox
 export const checkbox: Story = {
   args: {
-    Type: 'CheckBox',
     size: 'small',
-    checked: false,
+    selected: false,
     crossed: false,
   },
 };

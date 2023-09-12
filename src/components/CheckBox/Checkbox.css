@@ -1,0 +1,51 @@
+.checkbox {
+  font-size: 2.5rem;
+  transition: 0.1s;
+  font-weight: 700;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  position: inherit;
+  background: none;
+}
+
+.checkbox:hover {
+  transform: scale(120%);
+}
+
+.checkbox:active {
+  transform: scale(80%);
+}
+
+.checkbox__large {
+  width: 9rem;
+  height: 9rem;
+}
+
+.checkbox__medium {
+  width: 8rem;
+  height: 8rem;
+}
+
+.checkbox__small {
+  width: 7rem;
+  height: 7rem;
+}
+
+.checkbox__icon {
+  width: inherit;
+  height: inherit;
+  padding: 0;
+  margin: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.checkbox__default {
+  background-image: url('/src/assets/round-btns/Btn_Checkbox-empty.svg');
+}
+.checkbox__checked {
+  background-image: url('/src/assets/round-btns/Btn_check-green.svg');
+}
+.checkbox__crossed {
+  background-image: url('/src/assets/round-btns/Btn_Checkbox-Xd.svg');
+}

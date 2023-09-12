@@ -2,24 +2,27 @@ import React from 'react';
 
 import './Checkbox.css';
 export interface CheckBoxProps {
-  Type?: string;
-  selected?: boolean;
-  checked?: boolean;
-  crossed?: boolean;
+  /**
+   * Which size of button should be?
+   */
   size: 'small' | 'medium' | 'large';
+  /**
+   * When checkbox selected checked.
+   */
+  selected?: boolean;
+  /**
+   * When checkbox selected crossed.
+   */
+  crossed?: boolean;
 }
 
-export default function CheckBox({ Type, size, selected, checked, crossed, ...props }: CheckBoxProps) {
+export default function CheckBox({ size, selected, crossed, ...props }: CheckBoxProps) {
   return (
     <button className={['checkbox', `checkbox__${size}`].join(' ')} {...props}>
       <div
         className={[
           'checkbox__icon',
-          `${
-            selected
-              ? `checkbox--selected--${Type}`
-              : `${crossed ? `btn__round--disabled--${Type}` : `btn__round--${Type}`}`
-          }`,
+          `${selected ? `${crossed ? `checkbox__crossed` : `checkbox__checked`}` : `checkbox__default`}`,
         ].join(' ')}
       />
     </button>
