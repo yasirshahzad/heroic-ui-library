@@ -1,0 +1,154 @@
+/* Button */
+
+@font-face {
+  font-family: 'wheatoncapitals';
+  src: url('/src/assets/fonts/wheaton_capitals-webfont.woff2') format('woff2'),
+    url('/src/assets/fonts/wheaton_capitals-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+.btn__tech {
+  display: inline-block;
+  padding: 0.3rem;
+  border: 0;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  text-shadow: 2px 2px black;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  font-size: 2.5rem;
+  color: white;
+  font-family: 'wheatoncapitals';
+  text-transform: uppercase;
+  transition: transform 0.2s;
+}
+
+.btn__tech:disabled {
+  pointer-events: none;
+  background-color: transparent;
+}
+.btn__tech:disabled .btn__tech__text {
+  background-color: #90a8b9;
+}
+
+.btn__tech:hover {
+  transform: scale(1.1);
+}
+.btn__tech:focus {
+  transform: scale(0.9);
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.8);
+}
+.btn__tech__text {
+  background-color: #60cb3d;
+  display: inline-block;
+  padding: 0.1rem 0.6rem;
+  position: relative;
+  padding: 0.4rem 1rem;
+  z-index: 4;
+  clip-path: polygon(6% 0, 94% 0, 100% 20%, 100% 80%, 94% 100%, 6% 100%, 0 80%, 0 20%);
+  min-width: 7rem;
+  min-height: 2.5rem;
+}
+
+.btn__tech::after {
+  content: '';
+  background-color: rgb(154, 151, 151);
+  display: inline-block;
+  position: absolute;
+  top: 0.4rem;
+  right: 0.26rem;
+  left: -0.4rem;
+  bottom: -0.4rem;
+  z-index: 1;
+  clip-path: polygon(6% 0, 94% 0, 100% 20%, 100% 80%, 94% 100%, 6% 100%, 0 80%, 0 20%);
+}
+.btn__tech::before {
+  content: '';
+  background-color: rgb(252, 252, 252);
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  z-index: 2;
+  clip-path: polygon(6% 0, 94% 0, 100% 20%, 100% 80%, 94% 100%, 6% 100%, 0 80%, 0 20%);
+}
+
+.btn__tech .btn__tech__text:hover {
+  background-color: #fce000;
+}
+/* Blue button */
+.btn__tech--blue .btn__tech__text {
+  background-color: #002356;
+}
+.btn__tech--blue:focus .btn__tech__text {
+  background-color: #214372;
+}
+.selected--blue .btn__tech__text {
+  background-color: #70dbf7;
+}
+
+/* LightBlue button */
+.btn__tech--lightblue .btn__tech__text {
+  background-color: #4287e5;
+}
+.btn__tech--lightblue:focus .btn__tech__text {
+  background-color: #214372;
+}
+.selected--lightblue .btn__tech__text {
+  background-color: #70dbf7;
+}
+
+/* Green button */
+.btn__tech--green .btn__tech__text {
+  background-color: #60cb3d;
+}
+
+.btn__tech--green:focus .btn__tech__text {
+  background-color: #30651e;
+}
+.selected--green .btn__tech__text {
+  background-color: #baf059;
+}
+
+/* red button */
+.btn__tech--red .btn__tech__text {
+  background-color: #f40b0e;
+}
+
+.btn__tech--red:focus .btn__tech__text {
+  background-color: #7a0507;
+}
+.selected--red .btn__tech__text {
+  background-color: #ff5b72;
+}
+/* Orange button */
+.btn__tech--orange .btn__tech__text {
+  background-color: #ff8500;
+}
+.selected--orange .btn__tech__text {
+  background-color: #ffc033;
+}
+.btn__tech--orange:focus .btn__tech__text {
+  background-color: #7f4200;
+}
+/* Gray button */
+.btn__tech--gray {
+  pointer-events: none;
+}
+.btn__tech--gray .btn__tech__text {
+  pointer-events: none;
+  background-color: #90a8b9;
+}
+
+/* Disable button */
+.btn__tech--disable .btn__tech__text {
+  background-color: #90a8b9;
+}

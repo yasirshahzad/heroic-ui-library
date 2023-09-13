@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import Button from '../Button';
+import TechButton from './TechButton';
 
 const meta = {
-  title: 'Buttons/Regular',
-  component: Button,
+  title: 'Buttons/TechButton',
+  component: TechButton,
   parameters: {
     layout: 'centered',
   },
   tags: ['autodocs'],
   argTypes: {},
-} as Meta<typeof Button>;
+} as Meta<typeof TechButton>;
 
 export default meta;
 
@@ -29,7 +29,12 @@ export const Blue: Story = {
     btnType: 'blue',
   },
 };
-
+export const LightBlue: Story = {
+  args: {
+    label: 'Button',
+    btnType: 'lightblue',
+  },
+};
 export const Orange: Story = {
   args: {
     label: 'Button',
@@ -41,5 +46,11 @@ export const Red: Story = {
   args: {
     label: 'Button',
     btnType: 'red',
+  },
+};
+export const Gray: Story = {
+  args: {
+    label: 'Button',
+    btnType: 'gray',
   },
 };
