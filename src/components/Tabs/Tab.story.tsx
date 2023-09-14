@@ -18,8 +18,8 @@ type Story = StoryObj<typeof meta>;
 // Tabs stories
 export const Tab: Story = {
   args: {
-    Label: '',
-    select: 'false',
-    disable: 'false',
+    label: 'Mission',
+    selected: false,
+    disable: false,
   },
 };
