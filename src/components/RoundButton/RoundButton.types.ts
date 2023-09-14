@@ -66,7 +66,6 @@ export enum BtnType {
   'zoom-out' = 'zoom-out',
   'close' = 'close',
 }
-
 export interface RoundButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   /**
    * Which size of button should be?

@@ -1,18 +1,11 @@
 import React from 'react';
 import './Notification.css';
-interface NotificationProps {
-  color: 'green' | 'orange';
-  counter?: number;
-  mark: '!';
-}
+import { NotificationProps } from './Notification.types';
 
 const Notification = ({ color, counter, mark }: NotificationProps) => {
   return (
     <div className={['notification', `notification--${color}`].join(' ')}>
-      <div className="text">
-        {counter}
-        {mark}
-      </div>
+      <div className="text">{mark ? '!' : counter}</div>
     </div>
   );
 };

@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import CheckBox from './Checkbox';
 
 const meta = {
-  title: 'CheckBox/Animated CheckBox',
+  title: 'Forms/CheckBox',
   component: CheckBox,
   parameters: {
     layout: 'centered',
@@ -16,7 +16,7 @@ export default meta;
 type Story = StoryObj<typeof CheckBox>;
 
 // CheckBox
-export const checkbox: Story = {
+export const Checkbox: Story = {
   args: {
     size: 'small',
     selected: false,
