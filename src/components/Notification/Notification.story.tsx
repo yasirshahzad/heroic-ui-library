@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Notification from './Notification';
 
 const meta = {
-  title: 'Notification/Regular',
+  title: 'Presentation/Notification',
   component: Notification,
   parameters: {
     layout: 'centered',
@@ -16,7 +16,7 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-// Buttons stories
+// Notification stories
 export const NumericalCounter: Story = {
   args: {
     counter: 23,
@@ -26,7 +26,7 @@ export const NumericalCounter: Story = {
 
 export const ExlaminationMark: Story = {
   args: {
-    mark: '!',
+    mark: true,
     color: 'orange',
   },
 };

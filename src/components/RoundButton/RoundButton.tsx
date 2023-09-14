@@ -2,7 +2,7 @@ import React from 'react';
 import { RoundButtonProps } from './RoundButton.types';
 import './RoundButton.css';
 
-export const RoundButton = ({ size, btnType, selected, disabled = false, ...props }: RoundButtonProps) => {
+const RoundButton = ({ size, btnType, selected, disabled = false, ...props }: RoundButtonProps) => {
   return (
     <button disabled={disabled} className={['btn__round', `btn__round__${size}`].join(' ')} {...props}>
       <div
@@ -18,3 +18,5 @@ export const RoundButton = ({ size, btnType, selected, disabled = false, ...prop
     </button>
   );
 };
+
+export default RoundButton;

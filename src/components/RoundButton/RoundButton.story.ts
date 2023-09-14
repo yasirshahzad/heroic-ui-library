@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { RoundButton } from './RoundButton';
+import RoundButton from './RoundButton';
 import { BtnType } from './RoundButton.types';
 
 const meta = {
@@ -31,16 +31,10 @@ export const ArrowRight: Story = {
   },
 };
 
-export const ArrowDown: Story = {
+export const PhoneChat: Story = {
   args: {
-    btnType: BtnType['arrow-down-orange'],
+    btnType: BtnType['phone-chats-direct-default'],
     size: 'medium',
-  },
-};
-
-export const ArrowLeft: Story = {
-  args: {
-    btnType: BtnType['arrow-left-orange'],
-    size: 'medium',
+    selected: false,
   },
 };

@@ -1,20 +1,6 @@
 import React from 'react';
-
-import './Checkbox.css';
-export interface CheckBoxProps {
-  /**
-   * Which size of button should be?
-   */
-  size: 'small' | 'medium' | 'large';
-  /**
-   * When checkbox selected checked.
-   */
-  selected?: boolean;
-  /**
-   * When checkbox selected crossed.
-   */
-  crossed?: boolean;
-}
+import './checkbox.css';
+import { CheckBoxProps } from './Checkbox.types';
 
 export default function CheckBox({ size, selected, crossed, ...props }: CheckBoxProps) {
   return (
