@@ -16,7 +16,7 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-// Buttons stories
+// Notification stories
 export const NumericalCounter: Story = {
   args: {
     counter: 23,
