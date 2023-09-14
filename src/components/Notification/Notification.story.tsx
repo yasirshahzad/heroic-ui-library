@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
+
 import Notification from './Notification';
 
 const meta = {
@@ -8,7 +9,7 @@ const meta = {
     layout: 'centered',
   },
   tags: ['autodocs'],
-  argTypes: {},
+  argTypes: { color: { size: 'radio', options: ['green', 'orange'] } },
 } as Meta<typeof Notification>;
 
 export default meta;
@@ -16,9 +17,16 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // Buttons stories
-export const Green: Story = {
+export const NumericalCounter: Story = {
   args: {
-    label: 'Button',
-    btnType: 'green',
+    counter: 23,
+    color: 'green',
+  },
+};
+
+export const ExlaminationMark: Story = {
+  args: {
+    mark: '!',
+    color: 'orange',
   },
 };

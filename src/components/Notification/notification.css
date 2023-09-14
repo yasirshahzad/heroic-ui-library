@@ -1,0 +1,32 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+}
+.notification {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-width: 8rem;
+  min-height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  line-height: 1.5;
+  font-size: 5rem;
+  text-shadow: 1px 1px black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  font-family: 'Brady Bunch Remastered';
+  margin: 1rem;
+  padding: 0rem 2rem;
+}
+.notification--green {
+  background-image: url('/src/assets/notification/Notification_green.svg');
+}
+.notification--orange {
+  background-image: url('/src/assets/notification/Notification_orange.svg');
+}
