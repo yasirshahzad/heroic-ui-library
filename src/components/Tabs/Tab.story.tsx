@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Tabs from './Tab';
 
 const meta = {
-  title: 'Tabs/Regular',
+  title: 'Buttons/Tabs',
   component: Tabs,
   parameters: {
     layout: 'centered',
@@ -16,10 +16,26 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // Tabs stories
-export const Tab: Story = {
+export const Default: Story = {
   args: {
     label: 'Mission',
     selected: false,
     disable: false,
+  },
+};
+
+export const Selected: Story = {
+  args: {
+    label: 'Mission',
+    selected: true,
+    disable: false,
+  },
+};
+
+export const Disabled: Story = {
+  args: {
+    label: 'Mission',
+    selected: false,
+    disable: true,
   },
 };
