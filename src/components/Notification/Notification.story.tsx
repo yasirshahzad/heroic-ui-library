@@ -26,7 +26,7 @@ export const NumericalCounter: Story = {
 
 export const ExlaminationMark: Story = {
   args: {
-    mark: true,
+    mark: false,
     color: 'orange',
   },
 };
