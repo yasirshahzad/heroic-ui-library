@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.toast__wraper {
+  align-items: center;
+  display: flex;
+  height: 11rem;
+  justify-content: center;
+  margin: 4rem;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 57.7rem;
+}
+.statement__box:before {
+  background-color: #ffec9e;
+  bottom: 0;
+  clip-path: polygon(2.5% 3.5%, 99% 5%, 99.4% 93.2%, 2.3% 96%);
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+.statement__box {
+  background-color: #000;
+  bottom: 16px;
+  clip-path: polygon(2% 2%, 100% 0, 100% 99%, 2% 98%);
+  left: 0px;
+  margin: 0;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+.box__shadow {
+  background-color: #000;
+  bottom: 0px;
+  clip-path: polygon(2% 2%, 100% 0, 100% 100%, 2.2% 95%);
+  left: 16px;
+  margin: 0;
+  position: absolute;
+  right: 0px;
+  top: 32px;
+  z-index: -3;
+}
+.box__shadow:before {
+  bottom: 0;
+  clip-path: polygon(2.4% 3.5%, 99.3% 7%, 99.5% 94%, 2.4% 94%);
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.toast__statement {
+  font-family: 'acme';
+  font-size: 2.5rem;
+  letter-spacing: 1.1px;
+  z-index: 6;
+}
+.shadow--interact::before {
+  background-color: #60cb3d;
+}
+.shadow--warning::before {
+  background-color: #ff440a;
+}
+.shadow--misc::before {
+  background-color: #012257;
+}
+.toast-notification {
+  position: absolute;
+  right: -20px;
+  top: -4px;
+  z-index: 3;
+}
