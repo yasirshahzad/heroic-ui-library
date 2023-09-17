@@ -2,9 +2,9 @@ import React from 'react';
 import { RoundButtonProps } from './RoundButton.types';
 import './RoundButton.css';
 
-const RoundButton = ({ size, btnType, selected, disabled = false, ...props }: RoundButtonProps) => {
+const RoundButton = ({ size, btnType, selected, disabled = false, className, ...props }: RoundButtonProps) => {
   return (
-    <button disabled={disabled} className={['btn__round', `btn__round__${size}`].join(' ')} {...props}>
+    <button disabled={disabled} className={['btn__round', `btn__round__${size}`, className].join(' ')} {...props}>
       <div
         className={[
           'btn__round__icon',

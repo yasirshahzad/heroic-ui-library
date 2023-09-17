@@ -1,6 +1,6 @@
 import React from 'react';
-import './Notification.css';
 import { NotificationProps } from './Notification.types';
+import './Notification.css';
 
 const Notification = ({ color, counter, mark }: NotificationProps) => {
   return (

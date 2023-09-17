@@ -1,6 +1,6 @@
 import React from 'react';
-import './input.css';
 import { InputProps } from './Input.types';
+import './Input.css';
 
 /**
  *  UI component for user interaction
