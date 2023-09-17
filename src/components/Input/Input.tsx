@@ -1,6 +1,7 @@
+// Input.tsx
 import React from 'react';
+import styles from './Input.module.css'; // Import CSS module
 import { InputProps } from './Input.types';
-import './Input.css';
 
 /**
  *  UI component for user interaction
@@ -8,12 +9,12 @@ import './Input.css';
 const Input = ({ value, label, error, placeholder, ...props }: InputProps) => {
   return (
     <div>
-      <label htmlFor="" className="input__label">
+      <label htmlFor="" className={styles.input__label}>
         {label}
       </label>
 
-      <input value={value} placeholder={placeholder} className="input" {...props} />
-      {error && <div className="error">{error}</div>}
+      <input value={value} placeholder={placeholder} className={styles.input} {...props} />
+      {error && <div className={styles.error}>{error}</div>}
     </div>
   );
 };
