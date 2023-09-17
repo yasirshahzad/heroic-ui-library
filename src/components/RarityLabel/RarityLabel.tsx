@@ -1,8 +1,8 @@
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
-
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
+// RarityLabel.tsx
 import React from 'react';
-import './RarityLabel.css';
+import styles from './RarityLabel.module.css'; // Import CSS module
 import { Rarity, RarityProps } from './Rarity.types';
 
 export const ITEM_TYPE_NAMES_COLORS: any = {
@@ -18,7 +18,9 @@ const RarityLabel = ({ rarity }: RarityProps) => {
   const selectedRarity: Rarity = ITEM_TYPE_NAMES_COLORS[rarity];
 
   return (
-    <div className={[`rarity__label`, `rarity__label--${selectedRarity.color}`].join(' ')}>{selectedRarity.name} </div>
+    <div className={[styles.rarity__label, styles[`rarity__label--${selectedRarity.color}`]].join(' ')}>
+      {selectedRarity.name}
+    </div>
   );
 };
 
