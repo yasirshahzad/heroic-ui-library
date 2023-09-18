@@ -9,8 +9,8 @@ const meta = {
   },
   tags: ['autodocs'],
   /*
-  *Select rarity level.
-  */
+   *Select rarity level.
+   */
   argTypes: { rarity: { control: 'select', options: [1, 2, 3, 4, 5] } },
 } as Meta<typeof Raritylabel>;
 
