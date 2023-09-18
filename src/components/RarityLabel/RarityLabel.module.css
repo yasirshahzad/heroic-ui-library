@@ -1,25 +1,32 @@
+/* RarityLabel.module.css */
 .rarity__label {
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: acme;
   text-shadow: 1px 1px black;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
+
 .rarity__label--junk {
   color: #a294af;
 }
+
 .rarity__label--grey {
   color: #90a8b9;
 }
+
 .rarity__label--blue {
   color: #4287e5;
 }
+
 .rarity__label--green {
   color: #91f96f;
 }
+
 .rarity__label--orange {
   color: #ff8500;
 }
+
 .rarity__label--red {
   color: #f40b0e;
 }

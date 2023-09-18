@@ -14,6 +14,7 @@ html {
   text-align: center;
   width: 57.7rem;
 }
+
 .statement__box:before {
   background-color: #ffec9e;
   bottom: 0;
@@ -25,6 +26,7 @@ html {
   top: 0;
   z-index: 3;
 }
+
 .statement__box {
   background-color: #000;
   bottom: 16px;
@@ -35,6 +37,7 @@ html {
   right: 16px;
   top: 16px;
 }
+
 .box__shadow {
   background-color: #000;
   bottom: 0px;
@@ -46,6 +49,7 @@ html {
   top: 32px;
   z-index: -3;
 }
+
 .box__shadow:before {
   bottom: 0;
   clip-path: polygon(2.4% 3.5%, 99.3% 7%, 99.5% 94%, 2.4% 94%);
@@ -55,24 +59,42 @@ html {
   right: 0;
   top: 0;
 }
+
 .toast__statement {
   font-family: 'acme';
   font-size: 2.5rem;
   letter-spacing: 1.1px;
   z-index: 6;
 }
+
 .shadow--interact::before {
   background-color: #60cb3d;
 }
+
 .shadow--warning::before {
   background-color: #ff440a;
 }
+
 .shadow--misc::before {
   background-color: #012257;
 }
+
 .toast-notification {
   position: absolute;
   right: -20px;
   top: -4px;
   z-index: 3;
+}
+
+.toast__wraper .left-icon {
+  position: absolute;
+  left: -3rem;
+  top: -5px;
+  z-index: 3;
+  width: 11rem;
+}
+
+.toast__wraper .left-icon img {
+  width: 100%;
+  height: auto;
 }

@@ -1,3 +1,4 @@
+/* Notification.module.css */
 .notification {
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -7,6 +8,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .text {
   text-align: center;
   line-height: 1.5;
@@ -22,6 +24,7 @@
 .notification--green {
   background-image: url('/src/assets/notification/Notification_green.svg');
 }
+
 .notification--orange {
   background-image: url('/src/assets/notification/Notification_orange.svg');
 }

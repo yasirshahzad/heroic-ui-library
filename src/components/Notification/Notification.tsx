@@ -1,11 +1,12 @@
+// Notification.tsx
 import React from 'react';
-import './Notification.css';
+import styles from './Notification.module.css'; // Import CSS module
 import { NotificationProps } from './Notification.types';
 
 const Notification = ({ color, counter, mark }: NotificationProps) => {
   return (
-    <div className={['notification', `notification--${color}`].join(' ')}>
-      <div className="text">{mark ? '!' : counter}</div>
+    <div className={[styles.notification, styles[`notification--${color}`]].join(' ')}>
+      <div className={styles.text}>{mark ? '!' : counter}</div>
     </div>
   );
 };
