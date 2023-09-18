@@ -1,10 +1,10 @@
 import React from 'react';
-import './Tab.css';
+import styles from './Tab.module.css'; // Import the CSS Module
 import { TabsProps } from './Tabs.types';
 
-export const Tabs = ({ label, disable, selected }: TabsProps) => {
+const Tabs = ({ label, disable, selected }: TabsProps) => {
   return (
-    <button disabled={disable} className={['btn__tabs', `${selected ? `btn__tabs--selected` : ''}`].join(' ')}>
+    <button disabled={disable} className={`${styles.btn__tabs} ${selected ? styles['btn__tabs--selected'] : ''}`}>
       {label}
     </button>
   );

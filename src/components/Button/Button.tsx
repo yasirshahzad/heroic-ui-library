@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 // Button.tsx
 import React from 'react';
 import { ButtonProps } from './Button.types';

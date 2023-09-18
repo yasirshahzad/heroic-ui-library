@@ -1,15 +1,19 @@
 import React from 'react';
-import './TechButton.css';
+import styles from './TechButton.module.css'; // Import the CSS Module
 import { TechButtonProps } from './TechButton.types';
 
 export default function TechButton({ btnType, label, disable, selected, ...props }: TechButtonProps) {
   return (
     <button
       disabled={disable}
-      className={['btn__tech', `btn__tech--${btnType}`, `${selected ? `selected--${btnType}` : ''}`].join(' ')}
+      className={[
+        styles.btn__tech,
+        styles[`btn__tech--${btnType}`], // Use dynamic class names for btnType
+        selected ? styles[`selected--${btnType}`] : '', // Conditionally apply selected class
+      ].join(' ')}
       {...props}
     >
-      <div className="btn__tech__text">{label}</div>
+      <div className={styles.btn__tech__text}>{label}</div>
     </button>
   );
 }

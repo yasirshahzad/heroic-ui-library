@@ -15,7 +15,7 @@ html {
   width: 57.7rem;
 }
 
-.statement__box:before {
+.statement__box::before {
   background-color: #ffec9e;
   bottom: 0;
   clip-path: polygon(2.5% 3.5%, 99% 5%, 99.4% 93.2%, 2.3% 96%);
@@ -50,7 +50,7 @@ html {
   z-index: -3;
 }
 
-.box__shadow:before {
+.box__shadow::before {
   bottom: 0;
   clip-path: polygon(2.4% 3.5%, 99.3% 7%, 99.5% 94%, 2.4% 94%);
   content: '';

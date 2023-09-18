@@ -41,12 +41,14 @@ export const InteractWithNotificationOrange: Story = {
 
 export const Warning: Story = {
   args: {
+    type: 'warning',
     statement: "You don't have enough to buy that!",
   },
 };
 
 export const Misc: Story = {
   args: {
+    type: 'misc',
     statement: 'Lorem ipsum dolor sit amet.',
   },
 };

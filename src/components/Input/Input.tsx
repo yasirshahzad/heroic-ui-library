@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 // Input.tsx
 import React from 'react';
 import styles from './Input.module.css'; // Import CSS module
