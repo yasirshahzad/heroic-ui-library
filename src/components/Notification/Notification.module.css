@@ -22,9 +22,9 @@
 }
 
 .notification--green {
-  background-image: url('/src/assets/notification/Notification_green.svg');
+  background-image: url('../../assets/notification/Notification_green.svg');
 }
 
 .notification--orange {
-  background-image: url('/src/assets/notification/Notification_orange.svg');
+  background-image: url('../../assets/notification/Notification_orange.svg');
 }

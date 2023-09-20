@@ -1,0 +1,5 @@
+import n from '../../node_modules/rollup-plugin-styles/dist/runtime/inject-css.js';
+var css = ".checkbox {\n  font-size: 2.5rem;\n  transition: 0.1s;\n  font-weight: 700;\n  border: 0;\n  padding: 0;\n  overflow: hidden;\n  position: inherit;\n  background: none;\n}\n\n.checkbox:hover {\n  transform: scale(120%);\n}\n\n.checkbox:active {\n  transform: scale(80%);\n}\n\n.checkbox__large {\n  width: 9rem;\n  height: 9rem;\n}\n\n.checkbox__medium {\n  width: 8rem;\n  height: 8rem;\n}\n\n.checkbox__small {\n  width: 7rem;\n  height: 7rem;\n}\n\n.checkbox__icon {\n  width: inherit;\n  height: inherit;\n  padding: 0;\n  margin: 0;\n  background-size: 100% 100%;\n  background-repeat: no-repeat;\n}\n\n.checkbox__default {\n  background-image: url('/src/assets/round-btns/Btn_Checkbox-empty.svg');\n}\n\n.checkbox__checked {\n  background-image: url('/src/assets/round-btns/Btn_check-green.svg');\n}\n\n.checkbox__crossed {\n  background-image: url('/src/assets/round-btns/Btn_Checkbox-Xd.svg');\n}\n";
+n(css, {});
+export { css, css as default };
+//# sourceMappingURL=Checkbox.css.js.map

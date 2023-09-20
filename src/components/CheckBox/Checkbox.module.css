@@ -43,13 +43,13 @@
 }
 
 .checkbox__default {
-  background-image: url('/src/assets/round-btns/Btn_Checkbox-empty.svg');
+  background-image: url('../../assets/round-btns/Btn_Checkbox-empty.svg');
 }
 
 .checkbox__checked {
-  background-image: url('/src/assets/round-btns/Btn_check-green.svg');
+  background-image: url('../../assets/round-btns/Btn_check-green.svg');
 }
 
 .checkbox__crossed {
-  background-image: url('/src/assets/round-btns/Btn_Checkbox-Xd.svg');
+  background-image: url('../../assets/round-btns/Btn_Checkbox-Xd.svg');
 }
