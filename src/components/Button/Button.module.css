@@ -13,7 +13,7 @@
   font-family: 'Brady Bunch Remastered';
   text-transform: uppercase;
   background-color: black;
-  clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
+  clip-path: polygon(0 5%, 100% 0%, 100% 97%, 0% 100%);
   transition: transform 0.2s;
 }
 

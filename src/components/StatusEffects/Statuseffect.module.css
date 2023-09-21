@@ -1,0 +1,73 @@
+/* StatusEffect.module.css */
+.stats__wrapper {
+  display: inline-block;
+  font-family: 'acme';
+  text-shadow: 1px 1px black;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  font-size: 3rem;
+}
+.stats__block {
+  display: inline-block;
+}
+.stats__image {
+  width: 4rem;
+  height: 4rem;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 5px;
+}
+.stats__buffs {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  margin-left: 4px;
+}
+
+/* PlayerStats */
+.uneffected-buffs {
+  color: #90a8b9;
+}
+.uneffected-buffs::before {
+  content: '+';
+  margin-right: 5px;
+}
+.green-buffs {
+  color: #91f96f;
+}
+.green-buffs::before {
+  content: '+';
+  margin-right: 5px;
+}
+.red-buffs {
+  color: #f40b0e;
+}
+.red-buffs::before {
+  content: '-';
+
+  margin-right: 5px;
+}
+.stats__image-power {
+  background-image: url('./stats/Icn_Stat-Power.svg');
+}
+.stats__image-health {
+  background-image: url('./stats/Icn_Stat-Health.svg');
+}
+.stats__image-defence {
+  background-image: url('./stats/Icn_Stat-Defense.svg');
+}
+
+/* Vehicle Buffs */
+.stats__vehiclebuffs {
+  color: white;
+}
+.stats__image-speed {
+  background-image: url('./stats/Icn_Stat-Speed.svg');
+}
+.stats__image-handling {
+  background-image: url('./stats/Icn_Stat-Handling.svg');
+}
+.stats__image-weight {
+  background-image: url('./stats/Icn_Stat-Weight.svg');
+}
