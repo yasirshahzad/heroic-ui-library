@@ -5,3 +5,4 @@ export * from './Input';
 export * from './Notification';
 export * from './RoundButton';
 export * from './TechButton';
+export * from './Pagination';

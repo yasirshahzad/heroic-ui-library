@@ -27,7 +27,11 @@ const excludeExtensions = [
 
 /** @type {import('rollup').RollupOptions} */
 export default {
-  input: ['./src/index.ts', ...getFiles('./src/components', extensions, excludeExtensions)],
+  input: [
+    './src/index.ts',
+    ...getFiles('./src/components', extensions, excludeExtensions),
+    ...getFiles('./src/hooks', extensions, excludeExtensions),
+  ],
   output: {
     dir: 'dist',
     format: 'esm',

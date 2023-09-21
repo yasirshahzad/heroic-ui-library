@@ -1,0 +1,61 @@
+/* Pagination.module.css */
+
+.pagination-container {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.pagination-item {
+  margin: auto 4px;
+  background-size: 100% 100%;
+  width: 4rem;
+  height: 4rem;
+  padding-bottom: 5px;
+  text-align: center;
+  font: normal normal normal 3.2rem/3.8rem Brady Bunch Remastered;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 2px 2px 0px #000000;
+  text-transform: uppercase;
+  opacity: 1;
+  -webkit-text-stroke: 0.8px black;
+  -webkit-text-fill-color: white;
+  background-image: url('../../assets/pagination/Btn_pagination-grey.svg');
+}
+
+.pagination-item:not(.arrow, .dots):hover {
+  cursor: pointer;
+  background-image: url('../../assets/pagination/Btn_pagination-yellow.svg') !important;
+}
+
+.pagination-item.dots:hover {
+  cursor: not-allowed;
+}
+
+.pagination-item.selected {
+  background-image: url('../../assets/pagination/Btn_pagination-yellow.svg') !important;
+}
+
+.arrow-left-one {
+  background-image: url('../../assets/pagination/Btn_first-green-one.svg') !important;
+}
+.arrow-left-two {
+  background-image: url('../../assets/pagination/Btn_left-green-two.svg') !important;
+}
+
+.arrow-right-one {
+  background-image: url('../../assets/pagination/Btn_right-green-one.svg') !important;
+}
+
+.arrow-right-two {
+  background-image: url('../../assets/pagination/Btn_last-green-two.svg') !important;
+}
+
+.arrow {
+  cursor: pointer;
+  width: 6rem;
+  height: 6rem;
+}
