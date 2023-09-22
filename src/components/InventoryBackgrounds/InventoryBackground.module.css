@@ -1,5 +1,13 @@
 .inventory__bg {
-  border: 1px solid red;
+  background-color: blue;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: transform scale 0.2s;
+}
+.inventory__bg:hover {
+  transform: scale(120%);
+}
+.inventory__bg__default {
 }
 .inventory__bg--small {
   width: 9rem;
@@ -13,9 +21,33 @@
   width: 11rem;
   height: 11rem;
 }
+.inventory__bg--circle {
+  border-radius: 50%;
+}
 .inventory__bg__selected {
+  border: 3px solid #ffcc00;
 }
 .inventory__bg__equable {
+  border: 3px solid #91f96f;
 }
-.inventory__bg__default {
+.inventory__bg--purple {
+  background-image: url('../../assets/inventory\ bgs/.inventory__bg--purple');
+}
+.inventory__bg--green {
+  background-image: url('../../assets/inventory\ bgs/.inventory__bg--green');
+}
+.inventory__bg--grey {
+  background-image: url('../../assets/inventory\ bgs/.inventory__bg--grey');
+}
+.inventory__bg--blue {
+  background-image: url('../../assets/inventory\ bgs/.inventory__bg--blue');
+}
+.inventory__bg--red {
+  background-image: url('../../assets/inventory\ bgs/.inventory__bg--red');
+}
+.inventory__bg--orange {
+  background-image: url('../../assets/inventory\ bgs/.inventory__bg--orange');
+}
+.inventory__bg--empty {
+  background-image: url('../../assets/inventory\ bgs/.inventory__bg--empty');
 }
