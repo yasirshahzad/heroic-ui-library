@@ -6,5 +6,5 @@ export interface BonusEffectProps {
   /**
    * Bonus level(buffs).
    */
-  BonusText?: 'Size' | 'Time';
+  BonusText?: string;
 }
