@@ -1,0 +1,21 @@
+.inventory__bg {
+  border: 1px solid red;
+}
+.inventory__bg--small {
+  width: 9rem;
+  height: 9rem;
+}
+.inventory__bg--medium {
+  width: 10rem;
+  height: 10rem;
+}
+.inventory__bg--large {
+  width: 11rem;
+  height: 11rem;
+}
+.inventory__bg__selected {
+}
+.inventory__bg__equable {
+}
+.inventory__bg__default {
+}
