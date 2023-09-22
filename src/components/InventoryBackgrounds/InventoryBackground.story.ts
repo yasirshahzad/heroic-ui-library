@@ -20,7 +20,10 @@ const meta = {
       control: 'inline-radio',
       options: ['square', 'circle'],
     },
-    object: { control: 'select', options: [1, 2, 3, 4, 5, 6] },
+    object: {
+      control: 'select',
+      options: [1, 2, 3, 4, 5, 6],
+    },
   },
 } as Meta<typeof InventoryBackground>;
 
@@ -31,7 +34,7 @@ type Story = StoryObj<typeof InventoryBackground>;
 // Junk
 export const InventoryBackgrounds: Story = {
   args: {
-    object: 1,
+    object: 2,
     size: 'large',
     geomatry: 'square',
     selected: false,

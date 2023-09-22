@@ -1,8 +1,5 @@
 .inventory__bg {
-  background-color: blue;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transition: transform scale 0.2s;
+  transition: transform 0.2s;
 }
 .inventory__bg:hover {
   transform: scale(120%);
@@ -25,29 +22,56 @@
   border-radius: 50%;
 }
 .inventory__bg__selected {
-  border: 3px solid #ffcc00;
+  border: 4px solid #ffcc00;
 }
 .inventory__bg__equable {
-  border: 3px solid #91f96f;
+  border: 4px solid #91f96f;
 }
-.inventory__bg--purple {
-  background-image: url('../../assets/inventory\ bgs/.inventory__bg--purple');
+.inventory__img {
+  height: inherit;
+  width: inherit;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
-.inventory__bg--green {
-  background-image: url('../../assets/inventory\ bgs/.inventory__bg--green');
+.inventory__bg--circle .inventory__bg--purple {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Circle-Purple.png');
 }
-.inventory__bg--grey {
-  background-image: url('../../assets/inventory\ bgs/.inventory__bg--grey');
+.inventory__bg--square .inventory__bg--purple {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Square-Purple.png');
 }
-.inventory__bg--blue {
-  background-image: url('../../assets/inventory\ bgs/.inventory__bg--blue');
+.inventory__bg--circle .inventory__bg--green {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Circle-Green.png');
 }
-.inventory__bg--red {
-  background-image: url('../../assets/inventory\ bgs/.inventory__bg--red');
+.inventory__bg--square .inventory__bg--green {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Square-Green.png');
 }
-.inventory__bg--orange {
-  background-image: url('../../assets/inventory\ bgs/.inventory__bg--orange');
+.inventory__bg--circle .inventory__bg--grey {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Circle-Grey.png');
 }
-.inventory__bg--empty {
-  background-image: url('../../assets/inventory\ bgs/.inventory__bg--empty');
+.inventory__bg--square .inventory__bg--grey {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Square-Grey.png');
+}
+.inventory__bg--circle .inventory__bg--blue {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Circle-Blue.png');
+}
+.inventory__bg--square .inventory__bg--blue {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Square-Blue.png');
+}
+.inventory__bg--circle .inventory__bg--red {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Circle-Red.png');
+}
+.inventory__bg--square .inventory__bg--red {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Square-Red.png');
+}
+.inventory__bg--circle .inventory__bg--orange {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Circle-Orange.png');
+}
+.inventory__bg--square .inventory__bg--orange {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Square-Orange.png');
+}
+.inventory__bg--circle .inventory__bg--empty {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Circle-Empty.png');
+}
+.inventory__bg--square .inventory__bg--empty {
+  background-image: url('../../assets/inventoryBgs/Icn_InventoryBG-Square-Empty.png');
 }

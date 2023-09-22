@@ -28,7 +28,7 @@ const InventoryBackground = ({ size, geomatry, selected, equable, object, img }:
 
   return (
     <div className={InventoryBgClasses}>
-      <div className={styles[`inventory__bg--${selectedInventory.img}`]}></div>
+      <div className={[styles.inventory__img, styles[`inventory__bg--${selectedInventory.img}`]].join(' ')}></div>
     </div>
   );
 };
