@@ -11,7 +11,7 @@ const meta = {
   /*
    *Select rarity level.
    */
-  argTypes: {},
+  argTypes: { VehicleStat: { control: 'inline-radio', options: ['speed', 'handling', 'weight'] } },
 } as Meta<typeof VehicleStats>;
 
 export default meta;

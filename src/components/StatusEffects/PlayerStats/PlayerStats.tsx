@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './StatusEffect.module.css'; // Import the CSS module
+import styles from '../StatusEffect.module.css'; // Import the CSS module
 import { StatusEffectProps } from './StatusEffect.types';
 
 const PlayerStats = ({ buffs, stats }: StatusEffectProps) => {
