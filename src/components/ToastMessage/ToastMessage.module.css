@@ -75,6 +75,7 @@ html {
   background-color: #ff440a;
 }
 
+.shadow--reward::before,
 .shadow--misc::before {
   background-color: #012257;
 }
@@ -89,7 +90,6 @@ html {
 .toast__wraper .left-icon {
   position: absolute;
   left: -3rem;
-  top: -5px;
   z-index: 3;
   width: 11rem;
 }
@@ -97,4 +97,45 @@ html {
 .toast__wraper .left-icon img {
   width: 100%;
   height: auto;
+}
+
+.interact-img-cont {
+  width: 7rem;
+  height: 7rem;
+  top: -1rem;
+  position: relative;
+}
+
+.warning {
+  position: relative;
+  top: -1rem;
+  left: -1rem;
+}
+
+.label {
+  transform: rotate(321deg);
+  position: absolute;
+  top: -1rem;
+  left: -3rem;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 1px 1px black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  font-family: 'Brady Bunch Remastered';
+  text-transform: uppercase;
+}
+
+.letter {
+  text-align: center;
+  font-size: 7rem;
+  text-shadow: 1px 1px black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  font-family: 'Brady Bunch Remastered';
+  text-transform: uppercase;
+  top: -1rem;
+  position: relative;
 }

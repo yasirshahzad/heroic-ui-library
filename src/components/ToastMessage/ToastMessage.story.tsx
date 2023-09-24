@@ -20,22 +20,7 @@ export const Interact: Story = {
   args: {
     type: 'interact',
     statement: 'Press F to harvest the dragonfruits!',
-  },
-};
-
-export const InteractWithNotificationGreen: Story = {
-  args: {
-    type: 'interact',
-    statement: 'Press F to harvest the dragonfruits!',
-    notification: { color: 'green', mark: true },
-  },
-};
-
-export const InteractWithNotificationOrange: Story = {
-  args: {
-    type: 'interact',
-    statement: 'Press F to harvest the dragonfruits!',
-    notification: { color: 'orange', mark: true },
+    notification: { color: 'green', counter: 2, mark: false },
   },
 };
 
@@ -43,6 +28,7 @@ export const Warning: Story = {
   args: {
     type: 'warning',
     statement: "You don't have enough to buy that!",
+    notification: { color: 'orange', counter: 2, mark: false },
   },
 };
 
@@ -50,5 +36,14 @@ export const Misc: Story = {
   args: {
     type: 'misc',
     statement: 'Lorem ipsum dolor sit amet.',
+    notification: { mark: true, color: 'orange' },
+  },
+};
+
+export const Reward: Story = {
+  args: {
+    type: 'reward',
+    statement: 'Lorem ipsum dolor sit amet.',
+    notification: { mark: true, color: 'orange' },
   },
 };
