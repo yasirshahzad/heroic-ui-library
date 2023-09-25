@@ -11,7 +11,7 @@ const meta = {
   /*
    *Select rarity level.
    */
-  argTypes: { BonusType: { control: 'inline-radio', options: ['up', 'down', 'time'] } },
+  argTypes: { bonusType: { control: 'inline-radio', options: ['up', 'down', 'time'] } },
 } as Meta<typeof BonusEffects>;
 
 export default meta;
@@ -21,7 +21,7 @@ type Story = StoryObj<typeof BonusEffects>;
 // Junk
 export const BonusEffect: Story = {
   args: {
-    BonusType: 'up',
-    BonusText: 'Size',
+    bonusType: 'up',
+    bonusText: 'Size',
   },
 };
