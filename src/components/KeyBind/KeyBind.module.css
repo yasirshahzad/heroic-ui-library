@@ -6,12 +6,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  user-select: none;
 }
+
 .seal {
   margin: 0;
   text-align: center;
 }
-.keybind--grayCircle {
+
+.keybind--Gray_Circle {
   font-family: 'Verdana', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   text-shadow: 0px 2px 3px black;
@@ -21,7 +24,8 @@
   font-size: 2.5rem;
   font-weight: bold;
 }
-.keybind--whiteSquare {
+
+.keybind--White_Square {
   font-family: 'Brady Bunch Remastered';
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px;

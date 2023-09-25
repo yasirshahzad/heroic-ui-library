@@ -18,13 +18,14 @@ type Story = StoryObj<typeof meta>;
 
 export const GrayCircle: Story = {
   args: {
-    type: 'grayCircle',
+    type: 'Gray_Circle',
     seal: 'I',
   },
 };
+
 export const WhiteSquare: Story = {
   args: {
-    type: 'whiteSquare',
+    type: 'White_Square',
     seal: 'E',
   },
 };
