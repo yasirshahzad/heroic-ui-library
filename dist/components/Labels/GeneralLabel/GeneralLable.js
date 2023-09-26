@@ -1,9 +1,9 @@
 import React from 'react';
-import modules_536e8d56 from '../Label.module.css.js';
+import modules_a6103cab from './GeneralLabel.module.css.js';
 var GeneralLable = function (_a) {
   var text = _a.text;
   return React.createElement("div", {
-    className: "".concat(modules_536e8d56.label_container, " ").concat(modules_536e8d56.gen__label)
+    className: "".concat(modules_a6103cab.label_container, " ").concat(modules_a6103cab.gen__label)
   }, text);
 };
 export { GeneralLable as default };
