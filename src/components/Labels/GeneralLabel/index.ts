@@ -1,2 +1,2 @@
-import GeneralLable from './GeneralLable';
-export default GeneralLable;
+import GeneralLabel from './GeneralLabel';
+export default GeneralLabel;

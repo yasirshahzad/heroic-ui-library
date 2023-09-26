@@ -1,3 +1,3 @@
-import TechLabel from './TechLabel.js';
-export { TechLabel as default };
+export * from "../../../assets/index-3d9288ee.ts";
+export { default } from "../../../assets/index-3d9288ee.ts";
 //# sourceMappingURL=index.js.map

@@ -1,4 +1,3 @@
-export { default as GeneralLable } from './GeneralLabel/GeneralLable.js';
-export { default as RotatedLabel } from '../RarityLabel/RarityLabel.js';
-export { default as TechLabel } from './TechLabel/TechLabel.js';
+export * from "../../assets/index-2333b0f4.ts";
+export { default } from "../../assets/index-2333b0f4.ts";
 //# sourceMappingURL=index.js.map

@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
-import GeneralLable from './GeneralLable';
+import GeneralLable from './GeneralLabel';
 
 const meta = {
   title: 'Presentation/Labels/General Labels',

@@ -1,3 +1,3 @@
-import Button from './Button.js';
-export { Button as default };
+export * from "../../assets/index-705c3935.ts";
+export { default } from "../../assets/index-705c3935.ts";
 //# sourceMappingURL=index.js.map
