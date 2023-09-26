@@ -1,3 +1,3 @@
-export * from "../../assets/index-4872e079.ts";
-export { default } from "../../assets/index-4872e079.ts";
+import RarityLabel from './RarityLabel.js';
+export { RarityLabel as default };
 //# sourceMappingURL=index.js.map

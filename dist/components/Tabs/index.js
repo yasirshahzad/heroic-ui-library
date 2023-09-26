@@ -1,3 +1,3 @@
-export * from "../../assets/index-d22bb3fe.ts";
-export { default } from "../../assets/index-d22bb3fe.ts";
+import Tabs from './Tab.js';
+export { Tabs as default };
 //# sourceMappingURL=index.js.map

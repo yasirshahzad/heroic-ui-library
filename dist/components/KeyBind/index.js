@@ -1,3 +1,3 @@
-export * from "../../assets/index-7121c12c.ts";
-export { default } from "../../assets/index-7121c12c.ts";
+import KeyBind from './KeyBind.js';
+export { KeyBind as default };
 //# sourceMappingURL=index.js.map

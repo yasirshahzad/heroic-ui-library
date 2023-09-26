@@ -11,7 +11,7 @@ const meta = {
   /*
    *Select rarity level.
    */
-  argTypes: { VehicleStat: { control: 'inline-radio', options: ['speed', 'handling', 'weight'] } },
+  argTypes: { vehicleStat: { control: 'inline-radio', options: ['speed', 'handling', 'weight'] } },
 } as Meta<typeof VehicleStats>;
 
 export default meta;
@@ -21,7 +21,7 @@ type Story = StoryObj<typeof VehicleStats>;
 // Junk
 export const VehicleStat: Story = {
   args: {
-    VehicleStat: 'speed',
+    vehicleStat: 'speed',
     vehicleBuffs: 10,
   },
 };

@@ -1,3 +1,4 @@
-export * from "../../assets/index-93f2df9c.ts";
-export { default } from "../../assets/index-93f2df9c.ts";
+export { BtnType } from './RoundButton.types.js';
+import RoundButton from './RoundButton.js';
+export { RoundButton as default };
 //# sourceMappingURL=index.js.map

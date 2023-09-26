@@ -1,3 +1,3 @@
-export * from "../../assets/index-fbeb75df.ts";
-export { default } from "../../assets/index-fbeb75df.ts";
+import Pagination from './Pagination.js';
+export { Pagination as default };
 //# sourceMappingURL=index.js.map

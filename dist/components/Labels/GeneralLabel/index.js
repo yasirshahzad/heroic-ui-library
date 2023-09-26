@@ -1,3 +1,3 @@
-export * from "../../../assets/index-2f10ffec.ts";
-export { default } from "../../../assets/index-2f10ffec.ts";
+import GeneralLable from './GeneralLabel.js';
+export { GeneralLable as default };
 //# sourceMappingURL=index.js.map

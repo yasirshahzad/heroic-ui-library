@@ -3,6 +3,7 @@
 /* eslint-disable prefer-destructuring */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 var isDev = process.env.NODE_ENV === 'development';
+var baseUrl = isDev ? 'https://mainbackend.woogiu.com/woogi/0.1/actor/cgi.php' : '/woogi/0.1/actor/cgi.php';
 var top = window.top;
 var addKeyDownListener = function (handleOnKeyDown, dev) {
   var _a;
@@ -26,5 +27,5 @@ var removeKeyDownListener = function (handleOnKeyDown, dev) {
     (_a = top.getCanvas) === null || _a === void 0 ? void 0 : _a.call(top).removeEventListener('keydown', handleOnKeyDown);
   }
 };
-export { addKeyDownListener, isDev, removeKeyDownListener, top };
+export { addKeyDownListener, baseUrl, isDev, removeKeyDownListener, top };
 //# sourceMappingURL=index.js.map

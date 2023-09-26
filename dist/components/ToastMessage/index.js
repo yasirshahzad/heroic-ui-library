@@ -1,3 +1,3 @@
-export * from "../../assets/index-1ed0a81c.ts";
-export { default } from "../../assets/index-1ed0a81c.ts";
+import ToastMessage from './ToastMessage.js';
+export { ToastMessage as default };
 //# sourceMappingURL=index.js.map

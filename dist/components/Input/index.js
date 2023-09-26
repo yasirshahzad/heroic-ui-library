@@ -1,3 +1,3 @@
-export * from "../../assets/index-a826df4c.ts";
-export { default } from "../../assets/index-a826df4c.ts";
+import Input from './Input.js';
+export { Input as default };
 //# sourceMappingURL=index.js.map

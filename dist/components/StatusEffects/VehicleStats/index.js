@@ -1,3 +1,3 @@
-export * from "../../../assets/index-588b9efa.ts";
-export { default } from "../../../assets/index-588b9efa.ts";
+import VehicleStats from './VehicleStats.js';
+export { VehicleStats as default };
 //# sourceMappingURL=index.js.map

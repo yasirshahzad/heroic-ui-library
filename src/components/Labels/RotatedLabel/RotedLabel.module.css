@@ -16,27 +16,35 @@
 .rotated__label__text {
   transform: rotate(-7.5deg);
 }
+
 .rotated__label__red {
-  background-image: url('/src/assets/labels/Label_SP-red.svg');
+  background-image: url('../../../assets/labels/Label_SP-red.svg');
 }
+
 .rotated__label__green {
-  background-image: url('/src/assets/labels/Label_SP-green.svg');
+  background-image: url('../../../assets/labels/Label_SP-green.svg');
 }
+
 .rotated__label__darkBlue {
-  background-image: url('/src/assets/labels/Label_SP-blue-drk.svg');
+  background-image: url('../../../assets/labels/Label_SP-blue-drk.svg');
 }
+
 .rotated__label__orange {
-  background-image: url('/src/assets/labels/Label_SP-orange.svg');
+  background-image: url('../../../assets/labels/Label_SP-orange.svg');
 }
+
 .rotated__label__pink {
-  background-image: url('/src/assets/labels/Label_SP-pink.svg');
+  background-image: url('../../../assets/labels/Label_SP-pink.svg');
 }
+
 .rotated__label__purple {
-  background-image: url('/src/assets/labels/Label_SP-purple.svg');
+  background-image: url('../../../assets/labels/Label_SP-purple.svg');
 }
+
 .rotated__label__yellow {
-  background-image: url('/src/assets/labels/Label_SP-yellow.svg');
+  background-image: url('../../../assets/labels/Label_SP-yellow.svg');
 }
+
 .rotated__label__blue {
-  background-image: url('/src/assets/labels/Label_SP-blue-lt.svg');
+  background-image: url('../../../assets/labels/Label_SP-blue-lt.svg');
 }

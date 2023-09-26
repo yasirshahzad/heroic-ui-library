@@ -1,3 +1,3 @@
-export * from "../../assets/index-8c089bd8.ts";
-export { default } from "../../assets/index-8c089bd8.ts";
+import TechButton from './TechButton.js';
+export { TechButton as default };
 //# sourceMappingURL=index.js.map
