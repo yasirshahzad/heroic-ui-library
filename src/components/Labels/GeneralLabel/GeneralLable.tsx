@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from '../Label.module.css';
-import { GeneralLablesProps } from './GeneralLables.type';
-const GeneralLables = ({ text }: GeneralLablesProps) => {
+import { LabelProps } from '../Label.type';
+
+const GeneralLable = ({ text }: LabelProps) => {
   return <div className={`${styles.label_container} ${styles.gen__label}`}>{text}</div>;
 };
 
-export default GeneralLables;
+export default GeneralLable;

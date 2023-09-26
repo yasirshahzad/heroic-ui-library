@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from '../Label.module.css';
-import { RotatedLabelsProps } from './RotatedLabels.type';
-const RotatedLabels = ({ color, text }: RotatedLabelsProps) => {
+import { LabelProps } from '../Label.type';
+
+const RotatedLabel = ({ color, text }: LabelProps) => {
   return (
     <div
       className={`${styles.label_container} ${styles.tech_rotated} ${styles.rotated__label}  ${
@@ -13,4 +14,4 @@ const RotatedLabels = ({ color, text }: RotatedLabelsProps) => {
   );
 };
 
-export default RotatedLabels;
+export default RotatedLabel;

@@ -1,16 +1,16 @@
 import { Meta, StoryObj } from '@storybook/react';
-import TechLabels from './TechLabels';
+import TechLabel from './TechLabel';
 
 const meta = {
-  title: 'Labels/Tech Labels',
-  component: TechLabels,
+  title: 'Presentation/Labels/Tech Labels',
+  component: TechLabel,
   parameters: {
     layout: 'centered',
   },
   tags: ['autodocs'],
 
   argTypes: {},
-} as Meta<typeof TechLabels>;
+} as Meta<typeof TechLabel>;
 
 export default meta;
 

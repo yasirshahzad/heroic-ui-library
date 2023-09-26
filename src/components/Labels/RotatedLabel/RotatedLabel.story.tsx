@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from '@storybook/react';
-import RotatedLabels from './RotatedLabels';
+import RotatedLabel from './RotatedLabel';
 
 const meta = {
-  title: 'Labels/Rotated Labels',
-  component: RotatedLabels,
+  title: 'Presentation/Labels/Rotated Labels',
+  component: RotatedLabel,
   parameters: {
     layout: 'centered',
   },
@@ -15,7 +15,7 @@ const meta = {
       options: ['red', 'green', 'darkBlue', 'orange', 'yellow', 'blue', 'pink', 'purple'],
     },
   },
-} as Meta<typeof RotatedLabels>;
+} as Meta<typeof RotatedLabel>;
 
 export default meta;
 
