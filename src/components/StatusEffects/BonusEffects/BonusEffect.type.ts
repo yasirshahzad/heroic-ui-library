@@ -2,9 +2,9 @@ export interface BonusEffectProps {
   /**
    * Which type of Bonus Effect should be?
    */
-  BonusType: 'up' | 'down' | 'time';
+  bonusType: 'up' | 'down' | 'time';
   /**
    * Bonus level(buffs).
    */
-  BonusText?: string;
+  bonusText?: string;
 }

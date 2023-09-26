@@ -1,6 +1,6 @@
 {
   "name": "heroic-ui-library",
-  "version": "0.6.0",
+  "version": "0.8.0",
   "license": "MIT",
   "author": "Muhammad Yasir",
   "description": "React component library for Heroic Game Day.",
@@ -14,7 +14,7 @@
   "scripts": {
     "start": "storybook dev -p 6006",
     "build:lib": "rollup -c --bundleConfigAsCjs",
-    "build:storybook": "yarn storybook:build",
+    "build:storybook": "yarn storybook build",
     "build:publish": "yarn build && yarn publish",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
@@ -27,7 +27,7 @@
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "test:watch": "vitest",
-    "predeploy": "yarn storybook:build",
+    "predeploy": "yarn build:storybook",
     "deploy": "gh-pages -d storybook-static",
     "typecheck": "tsc --noEmit"
   },

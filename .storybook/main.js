@@ -30,13 +30,6 @@ module.exports = {
       include: path.resolve(__dirname, '../'),
     });
 
-    if (process.env.NODE_ENV === 'Docker') {
-      config.watchOptions = {
-        aggregateTimeout: 500,
-        poll: 1000,
-      };
-    }
-
     // Return the altered config
     return config;
   },
