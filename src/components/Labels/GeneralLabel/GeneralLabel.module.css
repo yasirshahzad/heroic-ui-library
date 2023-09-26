@@ -1,0 +1,11 @@
+/* General Lable */
+.gen__label {
+  font-size: 4rem;
+  display: inline-block;
+  background-size: 100% 100%;
+  text-transform: uppercase;
+  font-family: 'Brady Bunch Remastered';
+  background-image: url('/src/assets/labels/Title-Dialogue_sm.svg');
+  color: #002356;
+  padding: 1rem 4.5rem;
+}
