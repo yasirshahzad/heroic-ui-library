@@ -1,33 +1,18 @@
-.label_container {
+/* roted Labels */
+.rotated__label {
+  font-size: 4rem;
   display: inline-block;
   background-size: 100% 100%;
   text-transform: uppercase;
-}
-
-/* General Lable */
-.gen__label {
-  font-family: 'Brady Bunch Remastered';
-  font-size: 2.5rem;
-  background-image: url('/src/assets/labels/Title-Dialogue_sm.svg');
-  color: #002356;
-  padding: 1rem 4.5rem;
-}
-
-/* General label End */
-.tech_rotated {
-  font-size: 3.5rem;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
   text-shadow: 3px 3px black;
   line-height: 1.3;
   color: #fff;
-}
-
-/* roted Labels */
-.rotated__label {
   font-family: 'Brady Bunch Remastered';
   padding: 0.5rem 2rem 1rem 2rem;
 }
+
 .rotated__label__text {
   transform: rotate(-7.5deg);
 }
@@ -54,9 +39,4 @@
 }
 .rotated__label__blue {
   background-image: url('/src/assets/labels/Label_SP-blue-lt.svg');
-}
-.tech__label {
-  font-family: 'wheaton';
-  background-image: url('/src/assets/labels/Title-Tech_sm.svg');
-  padding: 1rem 5.5rem;
 }

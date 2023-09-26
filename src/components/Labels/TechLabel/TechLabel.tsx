@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../Label.module.css';
+import styles from './TechLabel.module.css';
 import { LabelProps } from '../Label.type';
 
 const TechLabel = ({ text }: LabelProps) => {
