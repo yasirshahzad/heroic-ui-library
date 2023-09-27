@@ -1,16 +1,16 @@
 import { Meta, StoryObj } from '@storybook/react';
-import GeneralLable from './GeneralLabel';
+import GeneralLabel from './GeneralLabel';
 
 const meta = {
   title: 'Presentation/Labels/General Labels',
-  component: GeneralLable,
+  component: GeneralLabel,
   parameters: {
     layout: 'centered',
   },
   tags: ['autodocs'],
 
   argTypes: {},
-} as Meta<typeof GeneralLable>;
+} as Meta<typeof GeneralLabel>;
 
 export default meta;
 
