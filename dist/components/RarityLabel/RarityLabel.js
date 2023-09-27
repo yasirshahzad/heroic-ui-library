@@ -34,8 +34,8 @@ var RarityLabel = function (_a) {
   var rarity = _a.rarity;
   var selectedRarity = ITEM_TYPE_NAMES_COLORS[rarity];
   return React.createElement("div", {
-    className: [modules_c5737f33.rarity__label, modules_c5737f33["rarity__label--".concat(selectedRarity.color)]].join(' ')
-  }, selectedRarity.name);
+    className: [modules_c5737f33.rarity__label, modules_c5737f33["rarity__label--".concat(selectedRarity === null || selectedRarity === void 0 ? void 0 : selectedRarity.color)]].join(' ')
+  }, selectedRarity === null || selectedRarity === void 0 ? void 0 : selectedRarity.name);
 };
 export { ITEM_TYPE_NAMES_COLORS, RarityLabel as default };
 //# sourceMappingURL=RarityLabel.js.map

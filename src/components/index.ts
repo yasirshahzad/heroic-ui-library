@@ -9,3 +9,4 @@ export * from './Pagination';
 export * from './Labels';
 export * from './StatusEffects';
 export * from './KeyBind';
+export * from './Tabs';

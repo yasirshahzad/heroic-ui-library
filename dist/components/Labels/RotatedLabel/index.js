@@ -1,3 +1,3 @@
-import RarityLabel from '../../RarityLabel/RarityLabel.js';
-export { RarityLabel as default };
+import RotatedLabel from './RotatedLabel.js';
+export { RotatedLabel as default };
 //# sourceMappingURL=index.js.map

@@ -1,2 +1,2 @@
-import RarityLabel from 'src/components/RarityLabel';
-export default RarityLabel;
+import RotatedLabel from './RotatedLabel';
+export default RotatedLabel;

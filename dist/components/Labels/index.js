@@ -1,4 +1,5 @@
-export { default as GeneralLabel } from './GeneralLabel/GeneralLabel.js';
-export { default as RotatedLabel } from '../RarityLabel/RarityLabel.js';
-export { default as TechLabel } from './TechLabel/TechLabel.js';
+import 'react';
+import './GeneralLabel/GeneralLabel.module.css.js';
+import './RotatedLabel/RotedLabel.module.css.js';
+import './TechLabel/TechLabel.module.css.js';
 //# sourceMappingURL=index.js.map

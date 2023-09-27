@@ -1,6 +1,4 @@
-import GeneralLabel from './GeneralLabel';
-import RotatedLabel from './RotatedLabel';
-import TechLabel from './TechLabel';
-
-export { GeneralLabel, RotatedLabel, TechLabel };
+export * from './GeneralLabel';
 export * from './Label.type';
+export * from './RotatedLabel';
+export * from './TechLabel';

@@ -1,25 +1,23 @@
 /* Tag Button  */
 .btn__tabs {
-  width: auto;
-  height: auto;
   border: 0;
   cursor: pointer;
   text-shadow: 1px 1px black;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #ffffff;
   font-family: 'Brady Bunch Remastered';
   text-transform: uppercase;
   transition: transform 0.2s;
   line-height: 1;
-  min-width: 7rem;
-  min-height: 2.5rem;
   padding: 0rem 1rem 0.4rem 1rem;
   background-image: url('../../assets/Tags/Tab_Reg-default.svg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: black;
+  min-width: 14rem;
+  height: 5rem;
 }
 
 /* Disable button */
@@ -27,16 +25,12 @@
   pointer-events: none;
   background-image: url('../../assets/Tags/Tab_Reg-disabled.svg');
 }
+
 .btn__tabs:hover {
   transform: scale(1.1);
   background-image: url('../../assets/Tags/Tab_Reg-hover.svg');
 }
-.btn__tabs:focus {
-  transform: scale(0.9);
-  color: rgba(255, 255, 255, 0.8);
-  -webkit-text-stroke-color: rgba(0, 0, 0, 0.8);
-  background-image: url('../../assets/Tags/Tab_Reg-hover.svg');
-}
+
 .btn__tabs--selected {
   background-image: url('../../assets/Tags/Tab_Reg-selected.svg');
 }

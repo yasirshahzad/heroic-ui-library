@@ -1,1 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 90"><defs><style>.cls-1{fill:#569bf9;}.cls-2{mix-blend-mode:darken;}.cls-2,.cls-3,.cls-4,.cls-5{fill:none;}.cls-3{isolation:isolate;}.cls-5{clip-path:url(#clippath);}.cls-6{fill:url(#linear-gradient);}</style><linearGradient id="linear-gradient" x1="129" y1="2.4" x2="129" y2="84.8" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#9cc5ff"/><stop offset="1" stop-color="#569bf9"/></linearGradient><clipPath id="clippath"><polygon id="BG-2" class="cls-4" points="252.11 84.8 6.89 81.2 3.89 4.8 254.11 2.4 252.11 84.8"/></clipPath></defs><g class="cls-3"><g id="Tab_Reg-default"><rect id="Black" width="256" height="90"/><polygon id="BG" class="cls-6" points="252.11 84.8 6.89 81.2 3.89 4.8 254.11 2.4 252.11 84.8"/><g id="Checkers"><g class="cls-5"><g id="Checkers-2" class="cls-2"><rect class="cls-1" x="234.67" y="71" width="21.33" height="19"/><rect class="cls-1" x="234.67" y="31" width="21.33" height="20"/><rect class="cls-1" x="234.67" y="6" width="21.33" height="10"/><rect class="cls-1" x="213.33" y="51" width="21.34" height="20"/><rect class="cls-1" x="213.33" y="16" width="21.34" height="15"/><rect class="cls-1" x="213.33" width="21.34" height="6"/><rect class="cls-1" x="192" y="71" width="21.33" height="19"/><rect class="cls-1" x="192" y="31" width="21.33" height="20"/><rect class="cls-1" x="192" y="6" width="21.33" height="10"/><rect class="cls-1" x="170.67" y="51" width="21.33" height="20"/><rect class="cls-1" x="170.67" y="16" width="21.33" height="15"/><rect class="cls-1" x="170.67" width="21.33" height="6"/><rect class="cls-1" x="149.33" y="71" width="21.34" height="19"/><rect class="cls-1" x="149.33" y="31" width="21.34" height="20"/><rect class="cls-1" x="149.33" y="6" width="21.34" height="10"/><rect class="cls-1" x="128" y="51" width="21.33" height="20"/><rect class="cls-1" x="128" y="16" width="21.33" height="15"/><rect class="cls-1" x="128" width="21.33" height="6"/><rect class="cls-1" x="106.67" y="71" width="21.33" height="19"/><rect class="cls-1" x="106.67" y="31" width="21.33" height="20"/><rect class="cls-1" x="106.67" y="6" width="21.33" height="10"/><rect class="cls-1" x="85.33" y="51" width="21.34" height="20"/><rect class="cls-1" x="85.33" y="16" width="21.34" height="15"/><rect class="cls-1" x="85.33" width="21.34" height="6"/><rect class="cls-1" x="64" y="71" width="21.33" height="19"/><rect class="cls-1" x="64" y="31" width="21.33" height="20"/><rect class="cls-1" x="64" y="6" width="21.33" height="10"/><rect class="cls-1" x="42.67" y="51" width="21.33" height="20"/><rect class="cls-1" x="42.67" y="16" width="21.33" height="15"/><rect class="cls-1" x="42.67" width="21.33" height="6"/><rect class="cls-1" x="21.33" y="71" width="21.34" height="19"/><rect class="cls-1" x="21.33" y="31" width="21.34" height="20"/><rect class="cls-1" x="21.33" y="6" width="21.34" height="10"/><rect class="cls-1" y="51" width="21.33" height="20"/><rect class="cls-1" y="16" width="21.33" height="15"/><rect class="cls-1" width="21.33" height="6"/></g></g></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 90">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #569bf9;
+      }
+
+      .cls-2 {
+        mix-blend-mode: darken;
+      }
+
+      .cls-2,
+      .cls-3,
+      .cls-4,
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="129" y1="2.4" x2="129" y2="84.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9cc5ff" />
+      <stop offset="1" stop-color="#569bf9" />
+    </linearGradient>
+    <clipPath id="clippath">
+      <polygon id="BG-2" class="cls-4" points="252.11 84.8 6.89 81.2 3.89 4.8 254.11 2.4 252.11 84.8" />
+    </clipPath>
+  </defs>
+  <g class="cls-3">
+    <g id="Tab_Reg-default">
+      <rect id="Black" width="256" height="90" />
+      <polygon id="BG" class="cls-6" points="252.11 84.8 6.89 81.2 3.89 4.8 254.11 2.4 252.11 84.8" />
+      <g id="Checkers">
+        <g class="cls-5">
+          <g id="Checkers-2" class="cls-2">
+            <rect class="cls-1" x="234.67" y="71" width="21.33" height="19" />
+            <rect class="cls-1" x="234.67" y="31" width="21.33" height="20" />
+            <rect class="cls-1" x="234.67" y="6" width="21.33" height="10" />
+            <rect class="cls-1" x="213.33" y="51" width="21.34" height="20" />
+            <rect class="cls-1" x="213.33" y="16" width="21.34" height="15" />
+            <rect class="cls-1" x="213.33" width="21.34" height="6" />
+            <rect class="cls-1" x="192" y="71" width="21.33" height="19" />
+            <rect class="cls-1" x="192" y="31" width="21.33" height="20" />
+            <rect class="cls-1" x="192" y="6" width="21.33" height="10" />
+            <rect class="cls-1" x="170.67" y="51" width="21.33" height="20" />
+            <rect class="cls-1" x="170.67" y="16" width="21.33" height="15" />
+            <rect class="cls-1" x="170.67" width="21.33" height="6" />
+            <rect class="cls-1" x="149.33" y="71" width="21.34" height="19" />
+            <rect class="cls-1" x="149.33" y="31" width="21.34" height="20" />
+            <rect class="cls-1" x="149.33" y="6" width="21.34" height="10" />
+            <rect class="cls-1" x="128" y="51" width="21.33" height="20" />
+            <rect class="cls-1" x="128" y="16" width="21.33" height="15" />
+            <rect class="cls-1" x="128" width="21.33" height="6" />
+            <rect class="cls-1" x="106.67" y="71" width="21.33" height="19" />
+            <rect class="cls-1" x="106.67" y="31" width="21.33" height="20" />
+            <rect class="cls-1" x="106.67" y="6" width="21.33" height="10" />
+            <rect class="cls-1" x="85.33" y="51" width="21.34" height="20" />
+            <rect class="cls-1" x="85.33" y="16" width="21.34" height="15" />
+            <rect class="cls-1" x="85.33" width="21.34" height="6" />
+            <rect class="cls-1" x="64" y="71" width="21.33" height="19" />
+            <rect class="cls-1" x="64" y="31" width="21.33" height="20" />
+            <rect class="cls-1" x="64" y="6" width="21.33" height="10" />
+            <rect class="cls-1" x="42.67" y="51" width="21.33" height="20" />
+            <rect class="cls-1" x="42.67" y="16" width="21.33" height="15" />
+            <rect class="cls-1" x="42.67" width="21.33" height="6" />
+            <rect class="cls-1" x="21.33" y="71" width="21.34" height="19" />
+            <rect class="cls-1" x="21.33" y="31" width="21.34" height="20" />
+            <rect class="cls-1" x="21.33" y="6" width="21.34" height="10" />
+            <rect class="cls-1" y="51" width="21.33" height="20" />
+            <rect class="cls-1" y="16" width="21.33" height="15" />
+            <rect class="cls-1" width="21.33" height="6" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
