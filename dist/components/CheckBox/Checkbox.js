@@ -5,8 +5,9 @@ function CheckBox(_a) {
   var size = _a.size,
     selected = _a.selected,
     crossed = _a.crossed,
-    props = __rest(_a, ["size", "selected", "crossed"]);
-  var checkboxClasses = [modules_3d9ddf8b.checkbox, modules_3d9ddf8b["checkbox__".concat(size)]].join(' ');
+    className = _a.className,
+    props = __rest(_a, ["size", "selected", "crossed", "className"]);
+  var checkboxClasses = [modules_3d9ddf8b.checkbox, modules_3d9ddf8b["checkbox__".concat(size)], className ? className : ''].join(' ');
   var iconClasses = [modules_3d9ddf8b.checkbox__icon, selected ? crossed ? modules_3d9ddf8b.checkbox__crossed : modules_3d9ddf8b.checkbox__checked : modules_3d9ddf8b.checkbox__default].join(' ');
   return React.createElement("button", __assign({
     className: checkboxClasses

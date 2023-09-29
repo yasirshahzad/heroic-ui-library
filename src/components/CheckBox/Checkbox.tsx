@@ -3,8 +3,9 @@ import React from 'react';
 import styles from './Checkbox.module.css'; // Import CSS module
 import { CheckBoxProps } from './Checkbox.types';
 
-export default function CheckBox({ size, selected, crossed, ...props }: CheckBoxProps) {
-  const checkboxClasses = [styles.checkbox, styles[`checkbox__${size}`]].join(' ');
+export default function CheckBox({ size, selected, crossed, className, ...props }: CheckBoxProps) {
+  const checkboxClasses = [styles.checkbox, styles[`checkbox__${size}`], className ? className : ''].join(' ');
+
   const iconClasses = [
     styles.checkbox__icon,
     selected ? (crossed ? styles.checkbox__crossed : styles.checkbox__checked) : styles.checkbox__default,

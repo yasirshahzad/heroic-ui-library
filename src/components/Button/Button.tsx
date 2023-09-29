@@ -4,8 +4,13 @@ import React from 'react';
 import { ButtonProps } from './Button.types';
 import styles from './Button.module.css'; // Import CSS module
 
-export default function Button({ btnType, label, disable, selected, ...props }: ButtonProps) {
-  const buttonClasses = [styles.btn, styles[`btn-${btnType}`], selected ? styles[`selected-${btnType}`] : ''];
+export default function Button({ btnType, label, disable, selected, className, ...props }: ButtonProps) {
+  const buttonClasses = [
+    styles.btn,
+    styles[`btn-${btnType}`],
+    selected ? styles[`selected-${btnType}`] : '',
+    className ? className : '',
+  ];
 
   return (
     <button disabled={disable} className={buttonClasses.join(' ')} {...props}>

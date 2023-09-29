@@ -1,4 +1,6 @@
-export interface CheckBoxProps {
+import { HTMLAttributes } from 'react';
+
+export interface CheckBoxProps extends HTMLAttributes<HTMLButtonElement> {
   /**
    * Which size of button should be?
    */
