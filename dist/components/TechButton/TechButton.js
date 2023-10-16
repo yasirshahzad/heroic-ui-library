@@ -6,11 +6,15 @@ function TechButton(_a) {
     label = _a.label,
     disable = _a.disable,
     selected = _a.selected,
-    props = __rest(_a, ["btnType", "label", "disable", "selected"]);
+    className = _a.className,
+    props = __rest(_a, ["btnType", "label", "disable", "selected", "className"]);
+  var classes = [modules_cb9fc6dd.btn__tech, modules_cb9fc6dd["btn__tech--".concat(btnType)], selected ? modules_cb9fc6dd["selected--".concat(btnType)] : '' // Conditionally apply selected class
+  ];
+
+  if (className) classes.push(className);
   return React.createElement("button", __assign({
     disabled: disable,
-    className: [modules_cb9fc6dd.btn__tech, modules_cb9fc6dd["btn__tech--".concat(btnType)], selected ? modules_cb9fc6dd["selected--".concat(btnType)] : '' // Conditionally apply selected class
-    ].join(' ')
+    className: classes.join(' ')
   }, props), React.createElement("div", {
     className: modules_cb9fc6dd.btn__tech__text
   }, label));

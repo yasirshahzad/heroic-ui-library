@@ -3,4 +3,5 @@ export interface TechButtonProps {
     label: string;
     disable?: boolean;
     selected?: boolean;
+    className?: string;
 }

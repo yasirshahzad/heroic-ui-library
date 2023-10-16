@@ -9,7 +9,7 @@ export default function Button({ btnType, label, disable, selected, className, .
     styles.btn,
     styles[`btn-${btnType}`],
     selected ? styles[`selected-${btnType}`] : '',
-    className ? className : '',
+    className,
   ];
 
   return (

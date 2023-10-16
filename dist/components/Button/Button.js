@@ -8,7 +8,7 @@ function Button(_a) {
     selected = _a.selected,
     className = _a.className,
     props = __rest(_a, ["btnType", "label", "disable", "selected", "className"]);
-  var buttonClasses = [modules_b0070f27.btn, modules_b0070f27["btn-".concat(btnType)], selected ? modules_b0070f27["selected-".concat(btnType)] : '', className ? className : ''];
+  var buttonClasses = [modules_b0070f27.btn, modules_b0070f27["btn-".concat(btnType)], selected ? modules_b0070f27["selected-".concat(btnType)] : '', className];
   return React.createElement("button", __assign({
     disabled: disable,
     className: buttonClasses.join(' ')
